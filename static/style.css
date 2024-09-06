@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "ibm_bios";
+    src: url("./WebPlus_IBM_BIOS.woff") format('woff');
+}
+
+:root{
+    font-family: 'ibm_bios';
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    font-smooth: never;
+    -webkit-font-smoothing : none;
+}
+
+.header-high-score {
+
+}
+.table-high-score {
+
+}
+.table-high-score td:first-child {
+    text-align: right;
+}
+.score-row-0 {
+    color: red;
+}
+.score-row-1 {
+    color: yellow;
+}
+.score-row-2 {
+    color: cyan;
+}
+.score-row-3 {
+    color: red;
+}
+.score-row-4 {
+    color: yellow;
+}
+.score-row-5 {
+    color: cyan;
+}
+.score-row-6 {
+    color: red;
+}
+.score-row-7 {
+    color: yellow;
+}
+.score-row-8 {
+    color: cyan;
+}
+.score-row-9 {
+    color: red;
+}
