@@ -17,7 +17,7 @@ document.body.appendChild(headerElement);
 const tableElement = document.createElement('table');
 tableElement.classList.add('table-high-score');
 document.body.appendChild(tableElement);
-Object.entries(highscoreMap).forEach(([initials, score], index) => {
+Object.entries(highscoreMap).sort(([_, a], [__, b]) => b - a).forEach(([initials, score], index) => {
     const tableRowElement = document.createElement('tr');
     tableRowElement.classList.add(`score-row-${index}`);
     tableElement.appendChild(tableRowElement);
